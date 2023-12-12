@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.profile-section {
+    text-align: center;
+    margin: 20px;
+    background-color: #F4FFF4; /* Color de fondo del perfil */
+    border-radius: 15px; /* Puntas redondeadas */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra difuminada */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #00FF11; /* Línea de color en el contorno */
+}
+
+.profile-section img {
+    width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+    border-radius: 50%;
+}
+
+.profile-section h2 {
+    color: #2c3e50; /* Cambia el color del nombre */
+}
+
+.profile-section h3 {
+    color: #3498db; /* Cambia el color del título de habilidades e intereses */
+}
+
+.profile-section ol {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-section li {
+    margin: 5px;
+}
+/* Enlaces dentro de la sección del perfil */
+.profile-section a {
+    color: #00FF11; /* Cambia el color de los enlaces en la sección del perfil */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    transition: color 0.3s ease; /* Agregado para suavizar la transición del color */
+}
+
+.profile-section a:hover {
+    color: #2980b9; /* Cambia el color al pasar el cursor sobre los enlaces */
+}
+
